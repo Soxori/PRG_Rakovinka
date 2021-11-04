@@ -8,7 +8,7 @@ public class Suma {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int x = 0;
-        int y = 0;
+        int output = 0;
 
         System.out.println("Enter number");
         ArrayList<Integer> list = new ArrayList<Integer>();
@@ -25,9 +25,9 @@ public class Suma {
 
         for (Integer integer : list) {
             if (integer >= idk) {
-                y = y + integer;
+                output = output + integer;
             }
         }
-        System.out.println(y);
+        System.out.println(output);
     }
 }
